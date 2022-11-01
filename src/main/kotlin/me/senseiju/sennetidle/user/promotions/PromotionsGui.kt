@@ -75,7 +75,7 @@ private fun createPromoteItemLore(user: User): List<Component> {
     lore.add("  <yellow>x3 Upgrade Points".component())
 
     lore.add(EMPTY_COMPONENT)
-    lore.add("<red>WARNING <grey>Current wave will be reset".component())
+    lore.add("<red>WARNING <grey>Current wave and reagents will be reset".component())
 
     return lore
 }

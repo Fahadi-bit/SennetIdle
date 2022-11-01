@@ -100,6 +100,7 @@ class User(
         currentWave = 1
         promotions++
         unspentUpgradePoints += 3
+        reagents.clear()
 
     }
 
